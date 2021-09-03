@@ -1,5 +1,7 @@
 # BRIEFING DO PROJETO
 
+- Texto animado ao carregar a pagina home.
+
 **Modelo de Inspiração**
 [Ava Freelancer](http://www.templatemonsterpreview.com/pt-br/demo/195084.html)
 
