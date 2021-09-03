@@ -17,9 +17,9 @@ function typeWrite(elemento) {
 
 const tituloHome = document.querySelector('.hero-title h2', '.hero-title h2 span');
 
-tituloHome.style.color = "#fff";
+tituloHome.style.color = "#dc3545";
 tituloHome.style.filter = "brightness(1.2)", "saturate(2)";
-tituloHome.style.backgroundColor = "rgba(220, 53, 69, 0.5)";
+// tituloHome.style.backgroundColor = "rgba(220, 53, 69, 0.5)";
 tituloHome.style.padding = "5px";
 tituloHome.style.borderRadius = "5px";
 
