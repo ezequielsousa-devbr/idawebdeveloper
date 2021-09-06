@@ -1,4 +1,5 @@
 # BRIEFING DO PROJETO
+Tema para desenvolvedores e programadores iniciantes com paginas estáticas.
 
 - Texto animado ao carregar a pagina home.
 - Home com particulas javascript.
