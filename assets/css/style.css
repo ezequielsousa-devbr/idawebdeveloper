@@ -484,6 +484,16 @@ strong {
   list-style: url(https://i.postimg.cc/MKDfvQcr/tick.png);
 }
 
+/* Blogger */
+
+.saturation {
+	filter: saturate(0);
+}
+
+.saturation:hover {
+	filter: saturate(1);
+}
+
 /* Footer */
 
 .footer {
