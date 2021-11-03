@@ -29,8 +29,13 @@ Tema para desenvolvedores e programadores iniciantes com paginas estáticas.
 - JAVASCRIPT
 
 ###### Compatibilidade Browsers
-[yes] Google Chromium
-[yes] Chromium
-[yes] Brave Browser
-[yes] Microsoft Edge
-[no] Mozilla Firefox
+[yes] Google Chromium<br>
+[yes] Chromium<br>
+[yes] Brave Browser<br>
+[yes] Microsoft Edge<br>
+[no] Mozilla Firefox<br>
+
+###### Dispositivos
+[no] Mobile<br>
+[no]  Tablet<br>
+[yes] Desktop<br>
