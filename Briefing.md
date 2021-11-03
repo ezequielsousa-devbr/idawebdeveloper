@@ -1,4 +1,4 @@
-# BRIEFING DO PROJETO
+# Briefing
 Tema para desenvolvedores e programadores iniciantes com paginas estáticas.
 
 - Texto animado ao carregar a pagina home.
@@ -10,22 +10,27 @@ Tema para desenvolvedores e programadores iniciantes com paginas estáticas.
 [Arlo Brow](https://www.templatemonsterpreview.com/demo/101269.html)
 [Construction](https://www.templatemonsterpreview.com/demo/62269.html)
 
-#### TYPHOGRAFY
-
-###### COLOORS
+###### Cores
 
 - HEX | #dc3545 (Default)
 - RGB | rgb(220, 53, 69) (Default)
 - RGB | rgb(101,2,24) (Hero Background Gradient)
 - RGB | #E0E0EA (Cards Title e Conteudo)
 
-###### FONTS
+###### Google Fontes
 
 - Rubik, Sans-serif
 - Roboto, Sans-serif
 - Open Sans, Sans-serif
 
-###### TECNOLOGY
+###### Tecnologia
 - HTML e CSS
 - BOOTSTRAP5
 - JAVASCRIPT
+
+###### Compatibilidade Browsers
+[yes] Google Chromium
+[yes] Chromium
+[yes] Brave Browser
+[yes] Microsoft Edge
+[no] Mozilla Firefox
