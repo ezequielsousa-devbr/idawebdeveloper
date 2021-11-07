@@ -4,14 +4,14 @@
 	<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale">
 <meta name="author" content="Ezequiel Sousa">
-<meta name="description" content="">
-<meta name="keywords" content="">
+<meta name="description" content="Portifolio Ida Webdeveloper">
+<meta name="keywords" content="Website,Portifolio,Dev,Portifolio Desenvolvedor,Developer,Webdesign">
 <meta name="generator" content="Sublime Text">
 <meta property="url" content="http://localhost:4000">
 <meta property="og:img" content="http://localhost:4000">
 <meta property="type" content="Website">
 <meta property="locale" content="en">
-<meta property="description" content="">
+<meta property="description" content="Portifolio Ida Webdeveloper">
 <!-- Style css Imports e Exports -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/style.css">
@@ -21,13 +21,13 @@
 </head>
 <body>
 	<section class="container-sm-fluid">
-		<div class="container-sm-fluid">
-<div class="d-flex flex-wrap flex-row justify-content-between align-middle">
-<div class="logo-header">
+		<div class="container-sm-fluid vh-100">
+<header id="header" class="d-flex flex-wrap flex-row justify-content-between align-middle">
+	<div class="logo-header">
 	<a href="http://localhost:4000" target="_self">
 	<h1>Ida Webdeveloper</h1></a>
 </div>
-<nav class="navbars">
+	<nav class="navbars">
 <ul class="d-flex flex-wrap flex-row justify-content-between align-middle">
 <li><a href="http://localhost:4000/index.html" target="_self">Home</a></li>
 <li><a href="http://localhost:4000/pages/about.html" target="_self">About</a></li>
@@ -36,7 +36,7 @@
 <li><a href="http://localhost:4000/pages/contact.html" target="_self">Contact</a></li>
 </ul>
 </nav>
-</div>
+</header>
 <div class="container-sm-fluid">
 <div class="title">
 	<h2>About</h2>
@@ -114,5 +114,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 <!-- particulas js -->
 <script src="http://localhost:4000/assets/js/particles.js"></script>
+<script>
+  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', './assets/js/particlesjs-config.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+</script>
 </body>
 </html>

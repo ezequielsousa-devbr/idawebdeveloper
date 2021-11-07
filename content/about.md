@@ -1,5 +1,4 @@
 ---
-id: about
 title: I'm Ida Webdeveloper
 description:
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

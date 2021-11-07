@@ -1,4 +1,4 @@
-I"M<section class="container-sm-fluid">
+I"R<section class="container-sm-fluid">
 <div class="title">
 	<h2>Contact</h2>
 </div>
@@ -6,7 +6,7 @@
 	<h3>Ida Webdeveloper</h3>
 	<p></p>
 </div>
-<div class="container-sm my-4">
+<div class="container-sm my-4 py-3">
 	<form class="text-light">
 		<label for="name" class="col-sm-2 col-form-label text-capitalize fw-bolder">Name</label>
 	    <div class="col-sm-12">
