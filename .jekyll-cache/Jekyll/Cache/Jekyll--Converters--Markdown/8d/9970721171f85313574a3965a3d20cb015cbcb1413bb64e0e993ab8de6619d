@@ -1,4 +1,4 @@
-I"Š	<div class="container-sm-fluid">
+I"W	<div class="container-sm-fluid">
 <div class="d-flex flex-wrap flex-row justify-content-between align-middle">
 <div class="logo-header">
 	<a href="http://localhost:4000" target="_self">
@@ -23,10 +23,7 @@
 		<img class="img-fluid" src="http://localhost:4000/assets/img/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="About Perfil" />
 	</figure>
 </div>
-<div class="ab-contain">
-	<h3></h3>
-	<p></p>
-</div>
+
 <div class="about-skills">
 	<h4>Freelancer, Web Developer &amp; Photographer</h4>
 	<div class="skills-wrappers">

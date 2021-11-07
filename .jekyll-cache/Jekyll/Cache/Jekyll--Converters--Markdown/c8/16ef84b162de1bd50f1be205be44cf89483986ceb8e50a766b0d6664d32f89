@@ -1,4 +1,4 @@
-I"í<div id="particles-js" class="particles">
+I"©<div id="particles-js" class="particles">
 	<div class="d-flex flex-wrap flex-row justify-content-between align-middle">
 <div class="logo-header">
 	<a href="http://localhost:4000" target="_self">
@@ -16,8 +16,8 @@
 </div>
 	<section class="container-hero-title">
 		<div class="hero-title">
-			<p><sup>Discover our projects</sup></p>
-			<h2>I'm a <span>web developer</span> and <span>programmer</span></h2>
+			<p><sup></sup></p>
+			<h2>&lt;/span&gt;</h2>
 			<!-- ShareThis BEGIN -->
 			<div class="sharethis-inline-share-buttons"></div>
 			<!-- ShareThis END -->

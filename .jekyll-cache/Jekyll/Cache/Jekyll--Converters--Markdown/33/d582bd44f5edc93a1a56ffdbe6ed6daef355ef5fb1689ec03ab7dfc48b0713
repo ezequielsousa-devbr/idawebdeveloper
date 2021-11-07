@@ -1,0 +1,67 @@
+I"�<div class="title">
+<h2>Services</h2>
+</div>
+<div class="ab-contain">
+	<h3></h3>
+	<p></p>
+</div>
+<div class="row align-items-center justify-content-center text-center py-4">
+<!-- Columns 1 -->
+
+<div class="col-3">
+<div class="column-container">
+	<div class="line-border">
+		<figure>
+			<img src="http://localhost:4000/assets/img/coding.png" alt="" />
+		</figure>
+	</div>
+	<div class="column-contain">
+		<h5>Criação de Sites</h5>
+		<p>Magna occaecat sunt ut ad consectetur veniam proident ea cillum est ea aliqua est sint consectetur pariatur ullamco ullamco sint sunt cillum proident. Lorem ipsum consequat dolore magna culpa amet cupidatat in laboris anim labo...</p>
+	</div>
+</div>
+</div>
+
+<div class="col-3">
+<div class="column-container">
+	<div class="line-border">
+		<figure>
+			<img src="http://localhost:4000/assets/img/graph.png" alt="" />
+		</figure>
+	</div>
+	<div class="column-contain">
+		<h5>Identidade Visual</h5>
+		<p>Magna occaecat sunt ut ad consectetur veniam proident ea cillum est ea aliqua est sint consectetur pariatur ullamco ullamco sint sunt cillum proident. Lorem ipsum consequat dolore magna culpa amet cupidatat in laboris anim labo...</p>
+	</div>
+</div>
+</div>
+
+<div class="col-3">
+<div class="column-container">
+	<div class="line-border">
+		<figure>
+			<img src="http://localhost:4000/assets/img/pie-chart.png" alt="" />
+		</figure>
+	</div>
+	<div class="column-contain">
+		<h5>Blogs Wordpress</h5>
+		<p>Magna occaecat sunt ut ad consectetur veniam proident ea cillum est ea aliqua est sint consectetur pariatur ullamco ullamco sint sunt cillum proident. Lorem ipsum consequat dolore magna culpa amet cupidatat in laboris anim labo...</p>
+	</div>
+</div>
+</div>
+
+<div class="col-3">
+<div class="column-container">
+	<div class="line-border">
+		<figure>
+			<img src="http://localhost:4000/assets/img/gotas-de-agua.png" alt="" />
+		</figure>
+	</div>
+	<div class="column-contain">
+		<h5>SEO</h5>
+		<p>Magna occaecat sunt ut ad consectetur veniam proident ea cillum est ea aliqua est sint consectetur pariatur ullamco ullamco sint sunt cillum proident. Lorem ipsum consequat dolore magna culpa amet cupidatat in laboris anim labo...</p>
+	</div>
+</div>
+</div>
+</div>
+:ET

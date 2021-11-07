@@ -1,7 +1,6 @@
 ---
-page: portifolio
-title: Ida Portifolio
-paragraph:
+title: Portifolio Ida Webdeveloper
+description:
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 	
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

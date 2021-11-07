@@ -1,5 +1,7 @@
 <footer>
+	{% for content in site.content %}
 	<div class="footer">
-		<small>&copy; Nostrud officia ad cillum occaecat {{site.title}}</small>
+		<small>&copy;{{content.description}}{{site.title}}</small>
 	</div>
+	{% endfor %}
 </footer>

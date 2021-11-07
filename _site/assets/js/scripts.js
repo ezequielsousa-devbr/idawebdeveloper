@@ -28,6 +28,6 @@ typeWrite(tituloHome);
 // FIM Efeito
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js', 'assets/js/particlesjs-config.json', function() {
+particlesJS.load('particles-js', '{{site.url}}{{site.baseurl}}assets/js/particlesjs-config.json', function() {
   console.log('callback - particles.js config loaded');
 });

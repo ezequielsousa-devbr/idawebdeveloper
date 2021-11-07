@@ -9,9 +9,11 @@
 		<img class="img-fluid" src="{{site.url}}{{site.baseurl}}/assets/img/{{site.about_perfil}}" alt="{{site.about_alt}}" />
 	</figure>
 </div>
+{% for content in site.content %}
 <div class="ab-contain">
 	<h3>{{content.title}}</h3>
 	<p>{{content.description | truncate: 2000}}</p>
 </div>
+{% endfor %}
 {% include skills.html %}
 </div>
