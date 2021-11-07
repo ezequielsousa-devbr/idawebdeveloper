@@ -1,28 +1,58 @@
 # Ida Portifolio
-Para visualizar o projeto com as particulas, você precisa instalar um servidor de teste local. O servidor pode ser que você desejar, mas para melhor ajudá-lo a configurar um servidor mais rápido, vamos criar um servidor com **Python http.server**.<br>
-Para iniciar um servidor em sua maquina local, você vai precisar instalar o python, caso não o tenha instalado. Vamos usar o servidor com a versão do python **3.9.7**. Instala a versão que preferir e rode o servidor para ver as particulas em ação.<br>
+Para ver o projeto demo, instale os seguintes pacotes.<br>
 
-Se você estiver usando Linux, provavelmente, você tem uma versão do python instalada no seu sistema. Por questões de dúvidas, execute o comando abaixo.<br>
-`python --version` ou<br>
-`python -V`<br>
+**Instalação**<br>
+- Rubygems
+- Jekyll
+- bundler
 
-*Caso o python não esteja instalado, utilize seu gerenciador de pacotes para baixar e instalar diretamente do repositório.*<br>
+**Download Rubygems**<br>
+[https://rubygems.org/](https://rubygems.org/pages/download)
 
-Para instalação no windows.<br>
-`python-3.9.0.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0`
+`gem update --system`
 
-Se preferir, baixe o pacote aqui para uma instalação amigavel.<br>
-[Fazer download Python Versão 3. arquitetura 64bits](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)<br>
-[Fazer download Python Versão 3. arquitetura 32bits](https://www.python.org/ftp/python/3.10.0/python-3.10.0.exe)<br>
+`ruby setup.rb --help`
 
-Após fazer a instalação ou com o python já instalado, basta entrar na pasta raiz do projeto e executar o comando abaixo.<br>
-`python -m http.server`
+`gem install bundle jekyll`
 
-Provavelmente, o servidor vai rodar na porta **8000**.<br>
+Após instalação, entre na pasta raiz do projeto e rode os comandos.<br>
 
-Acesse seu navegador e digite.<br>
-`localhost:8000` ou<br>
-`http://0.0.0.0:8000` ou<br>
-[clique aqui para abrir uma aba com servidor rodando](http://localhost:8000)
+**Instalação das e Atualização**<br>
+
+```
+bundle install
+bundle update
+```
+
+**Rodando o Servidor**<br>
+
+```
+bundle exec jekyll serve
+```
+
+Geralmente, a porta padrão do servidor é **4000**.<br>
+
+**Clique Aqui Após Iniciação Servidor**<br>
+[http://localhost:4000](http://localhost:4000)
+
+## Instruções
+
+**_includes**<br>
+Pasta que contém os blocos de construção dos layouts<br>
+
+**_layouts**<br>
+Pasta que possui estrutura básica do site<br>
+
+**content**<br>
+Contém todo o conteúdo do site. Modifique conforme necessário.<br>
+
+**pages**<br>
+Parte integrante do layout.<br>
+
+**_data**<br>
+Pasta possui arquivos para inserir novas informações nas paginas **portifolio** e **serviços**.<br>
+
+**_config.yml**<br>
+Arquivo de configurações básicas do site.<br>
 
 ![screenshot ipad desktop](./assets/img/screenshot-ipad-desktop.png)

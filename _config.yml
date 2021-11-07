@@ -37,3 +37,4 @@ navbar_contact: Contact
 exclude:
   - Gemfile.lock
   - .jekyll-cache/
+  - README.md
