@@ -1,0 +1,29 @@
+<div class="container-sm my-4">
+	<form class="text-light">
+		<label for="name" class="col-sm-2 col-form-label text-capitalize fw-bolder">Name</label>
+	    <div class="col-sm-12">
+	      <input type="text" class="form-control text-secondary text-capitalize" id="name" value="name" required>
+	    </div>
+		<label for="staticEmail" class="col-sm-2 col-form-label text-capitalize fw-bolder">Email</label>
+	    <div class="col-sm-12">
+	      <input type="text" class="form-control text-secondary text-lowercase" id="staticEmail" value="email@example.com" required>
+	    </div>
+	     <label for="exampleFormControlTextarea1" class="form-label text-capitalize fw-bolder mt-2">Description</label>
+			<textarea class="form-control text-dark" id="exampleFormControlTextarea1" placeholder="description text" rows="3" required></textarea>
+			<!-- Validation e Envio -->
+			<div class="col-12 py-4">
+		    <div class="form-check">
+		      <input class="form-check-input text-secondary" type="checkbox" value="" id="invalidCheck" required>
+		      <label class="form-check-label text-secondary" for="invalidCheck">
+		        Agree to terms and conditions
+		      </label>
+		      <div class="invalid-feedback">
+		        You must agree before submitting.
+		      </div>
+		    </div>
+		</div>
+		  <div class="d-grid mx-auto">
+		    <button class="btn btn-lg btn-outline-danger" type="submit">Confirm Subscription</button>
+		  </div>
+	</form>
+</div>

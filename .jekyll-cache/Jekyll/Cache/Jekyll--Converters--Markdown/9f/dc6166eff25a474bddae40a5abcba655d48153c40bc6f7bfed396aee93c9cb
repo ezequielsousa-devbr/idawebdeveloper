@@ -1,0 +1,30 @@
+I"í<div id="particles-js" class="particles">
+	<div class="d-flex flex-wrap flex-row justify-content-between align-middle">
+<div class="logo-header">
+	<a href="http://localhost:4000" target="_self">
+	<h1>Ida Webdeveloper</h1></a>
+</div>
+<nav class="navbars">
+<ul class="d-flex flex-wrap flex-row justify-content-between align-middle">
+<li><a href="http://localhost:4000/index.html" target="_self">Home</a></li>
+<li><a href="http://localhost:4000/pages/about.html" target="_self">About</a></li>
+<li><a href="http://localhost:4000/pages/service.html" target="_self">Services</a></li>
+<li><a href="http://localhost:4000/pages/portifolio.html" target="_self">Portifolio</a></li>
+<li><a href="http://localhost:4000/pages/contact.html" target="_self">Contact</a></li>
+</ul>
+</nav>
+</div>
+	<section class="container-hero-title">
+		<div class="hero-title">
+			<p><sup>Discover our projects</sup></p>
+			<h2>I'm a <span>web developer</span> and <span>programmer</span></h2>
+			<!-- ShareThis BEGIN -->
+			<div class="sharethis-inline-share-buttons"></div>
+			<!-- ShareThis END -->
+		</div>
+		<div class="hero-image">
+			<img class="img-fluid" src="http://localhost:4000/assets/img/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="Ida Webdeveloper" />
+		</div>
+	</section>
+</div>
+:ET

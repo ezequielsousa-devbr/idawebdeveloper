@@ -1,0 +1,41 @@
+/* Portifolio */
+
+.portifolio-text {
+	background-color: transparent;
+	padding: 20px 10px;
+	height: 200px;
+}
+
+.portifolio-text h4 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.portifolio p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	text-align: left;
+	word-wrap: break-word;
+	padding: 10px 20px;
+}
+
+.portifolio figure {
+	margin: 5px;
+}
+
+.portifolio figure img {
+	margin: 10px auto;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+
+.portifolio:hover figure img {
+	filter: saturate(0);
+}

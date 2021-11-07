@@ -1,0 +1,17 @@
+<div class="container-sm-fluid">
+{% include header.html %}
+<div class="container-sm-fluid">
+<div class="title">
+	<h2>{{site.navbar_about}}</h2>
+</div>
+<div class="about-person">
+	<figure>
+		<img class="img-fluid" src="{{site.url}}{{site.baseurl}}/assets/img/{{site.about_perfil}}" alt="{{site.about_alt}}" />
+	</figure>
+</div>
+<div class="ab-contain">
+	<h3>{{h3_about}}</h3>
+	<p>{{about.description | truncate: 2000}}</p>
+</div>
+{% include skills.html %}
+</div>

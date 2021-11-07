@@ -1,0 +1,15 @@
+<div class="row align-items-center justify-content-center py-4 mx-2">
+{% for portifolio in site.data.portifolio %}
+<div class="col-6">
+	<div class="portifolio">
+		<div class="portifolio-text">
+			<h4>{{portifolio.title}}</h4>
+			<p>{{portifolio.paragraph | truncate: 500}}</p>
+		</div>
+		<figure>
+			<img class="img-fluid img-thumbnail" src="{{portifolio.src}}" alt="{{portifolio.alt}}" />
+		</figure>
+	</div>
+</div>
+{% endfor %}
+</div>

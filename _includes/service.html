@@ -1,0 +1,24 @@
+<div class="title">
+<h2>{{site.navbar_serv}}</h2>
+</div>
+<div class="ab-contain">
+	<h3>{{service.title}}</h3>
+	<p>{{service.paragraph}}</p>
+</div>
+<div class="row align-items-center justify-content-center text-center py-4">
+<!-- Columns 1 -->
+{% for service in site.data.service %}
+<div class="col-3">
+<div class="column-container">
+	<div class="line-border">
+		<figure>
+			<img src="{{site.url}}{{site.baseurl}}/assets/img/{{service.src}}" alt="{{service.alt}}" />
+		</figure>
+	</div>
+	<div class="column-contain">
+		<h5>{{service.card_title}}</h5>
+		<p>{{service.description | truncate: 230}}</p>
+	</div>
+</div>
+</div>
+{% endfor %}
