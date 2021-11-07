@@ -34,6 +34,6 @@ navbar_port: Portifolio
 navbar_contact: Contact
 
 # EXCLUIR
-excluir:
+exclude:
   - Gemfile.lock
-  - .jekyll-cache
+  - .jekyll-cache/
