@@ -1,4 +1,4 @@
-I"Ω<div id="particles-js" class="particles">
+I"Â<div id="particles-js" class="particles">
 	<header id="header" class="d-flex flex-wrap flex-row justify-content-between align-middle">
 	<div class="logo-header">
 	<a href="http://localhost:4000" target="_self">
@@ -7,17 +7,17 @@
 	<nav class="navbars">
 <ul class="d-flex flex-wrap flex-row justify-content-between align-middle">
 <li><a href="http://localhost:4000/index.html" target="_self">Home</a></li>
-<li><a href="http://localhost:4000/pages/about.html" target="_self">About</a></li>
-<li><a href="http://localhost:4000/pages/service.html" target="_self">Services</a></li>
-<li><a href="http://localhost:4000/pages/portifolio.html" target="_self">Portifolio</a></li>
-<li><a href="http://localhost:4000/pages/contact.html" target="_self">Contact</a></li>
+<li><a href="http://localhost:4000/pages/about.html" target="_self">Sobre</a></li>
+<li><a href="http://localhost:4000/pages/service.html" target="_self">Servi√ßos</a></li>
+<li><a href="http://localhost:4000/pages/portifolio.html" target="_self">Portif√≥lio</a></li>
+<li><a href="http://localhost:4000/pages/contact.html" target="_self">Contato</a></li>
 </ul>
 </nav>
 </header>
 	<section class="container-hero-title">
 		<div class="hero-title">
-			<p><sup></sup></p>
-			<h2>&lt;/span&gt;</h2>
+			<p><sup>Seja Bem Vindos</sup></p>
+			<h2>Eu sou <span>Ida Webdeveloper</span></h2>
 			<!-- ShareThis BEGIN -->
 			<div class="sharethis-inline-share-buttons"></div>
 			<!-- ShareThis END -->

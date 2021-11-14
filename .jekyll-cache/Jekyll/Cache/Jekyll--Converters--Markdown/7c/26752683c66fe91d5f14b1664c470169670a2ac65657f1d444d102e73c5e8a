@@ -1,14 +1,14 @@
-I"R<section class="container-sm-fluid">
+I"D<section class="container-sm-fluid">
 <div class="title">
-	<h2>Contact</h2>
+	<h2>Contato</h2>
 </div>
 <div class="ab-contain">
-	<h3>Ida Webdeveloper</h3>
-	<p></p>
+	<h3>Fale Conosco Agora Mesmo</h3>
+	<p>Para conversamos um pouco sobre seu projeto, você pode nos enviar uma mensagem pelo formulário abaixo. Assim que possível, entraremos em contato para apresentar um pouco do nosso trabalho e como podemos ajudá-lo a tornar seus objetivos realidade.</p>
 </div>
 <div class="container-sm my-4 py-3">
 	<form class="text-light">
-		<label for="name" class="col-sm-2 col-form-label text-capitalize fw-bolder">Name</label>
+		<label for="name" class="col-sm-2 col-form-label text-capitalize fw-bolder">Nome</label>
 	    <div class="col-sm-12">
 	      <input type="text" class="form-control text-secondary text-capitalize" id="name" value="name" required="" />
 	    </div>
@@ -16,24 +16,29 @@
 	    <div class="col-sm-12">
 	      <input type="text" class="form-control text-secondary text-lowercase" id="staticEmail" value="email@example.com" required="" />
 	    </div>
-	     <label for="exampleFormControlTextarea1" class="form-label text-capitalize fw-bolder mt-2">Description</label>
+	     <label for="exampleFormControlTextarea1" class="form-label text-capitalize fw-bolder mt-2">Descrição</label>
 			<textarea class="form-control text-dark" id="exampleFormControlTextarea1" placeholder="description text" rows="3" required=""></textarea>
 			<!-- Validation e Envio -->
 			<div class="col-12 py-4">
 		    <div class="form-check">
 		      <input class="form-check-input text-secondary" type="checkbox" value="" id="invalidCheck" required="" />
 		      <label class="form-check-label text-secondary" for="invalidCheck">
-		        Agree to terms and conditions
+		        Você nos autoriza a entrar em contato pelo meio de comunicação informado neste formulário?
 		      </label>
 		      <div class="invalid-feedback">
-		        You must agree before submitting.
+		        Tente novamente. Ocorreu um erro!
 		      </div>
 		    </div>
 		</div>
 		  <div class="d-grid mx-auto">
-		    <button class="btn btn-lg btn-outline-danger" type="submit">Confirm Subscription</button>
+		    <button class="btn btn-lg btn-outline-danger" type="submit">Enviar Mensagem</button>
 		  </div>
 	</form>
 </div>
+<footer>
+	<div class="footer">
+		<small>&copy; Desenvolvido Por. <a href="https://github.com/ezequielsousa-devbr" target="_blank">ezequielsousa-devbr</a></small>
+	</div>
+</footer>
 </section>
 :ET

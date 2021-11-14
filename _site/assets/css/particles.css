@@ -63,6 +63,11 @@ body {
 	text-transform: capitalize;
 }
 
+.navbars li:hover a {
+	border-bottom: 1.3px solid crimson;
+	transition: 1.1s ease;
+}
+
 .navbars li:nth-child(7n) {
 	background-color: #dc3545;
 	padding: 5px 30px;
@@ -80,7 +85,7 @@ body {
 	margin: auto 50px;
 	top: auto;
 	bottom: 25%;
-	line-height: 20px;
+	line-height: 10px;
 	max-width: 855px;
 }
 
@@ -90,6 +95,10 @@ body {
 	font-weight: 700;
 	color: #ffffff;
 	text-transform: capitalize;
+}
+
+.hero-title p {
+	text-transform:  uppercase;
 }
 
 .hero-title h2 span {
@@ -119,8 +128,8 @@ body {
 	font-weight: 400;
 	color: #ffffff;
 	text-align: left;
-	text-transform: capitalize;
-	font-style: oblique;
+	text-transform: uppercase;
+	font-style: normal;
 }
 
 .sharethis-inline-share-buttons {
