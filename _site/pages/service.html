@@ -18,6 +18,31 @@
 <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/style.css">
 <link rel="shortcut icon" type="x-icon/image" href="http://localhost:4000/assets/favicon/favicon.ico">
 <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=6130fcf62244fd0013771e64&product=sop' async='async'></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','');</script>
+<!-- End Google Tag Manager -->
+<!-- Smartlook Analizer -->
+<script type='text/javascript'>
+  window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', '');
+</script>
 	<title>Ida Webdeveloper</title>
 </head>
 <body>
@@ -118,6 +143,21 @@
 particlesJS.load('particles-js', './assets/js/particlesjs-config.json', function() {
   console.log('callback - particles.js config loaded');
 });
+</script>
+<script>
+function typeWrite(elemento){
+  const textoArray = elemento.textContent.split('');
+  elemento.innerHTML = ' ';
+  textoArray.forEach(function(letra, i){   
+    
+  setTimeout(function(){
+      elemento.innerHTML += letra;
+  }, 200 * i)
+
+});
+}
+const titulo = document.querySelector('.hero-title h2, span');
+typeWrite(titulo);
 </script>
 </body>
 </html>

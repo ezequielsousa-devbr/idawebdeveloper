@@ -8,3 +8,18 @@ particlesJS.load('particles-js', './assets/js/particlesjs-config.json', function
   console.log('callback - particles.js config loaded');
 });
 </script>
+<script>
+function typeWrite(elemento){
+  const textoArray = elemento.textContent.split('');
+  elemento.innerHTML = ' ';
+  textoArray.forEach(function(letra, i){   
+    
+  setTimeout(function(){
+      elemento.innerHTML += letra;
+  }, 200 * i)
+
+});
+}
+const titulo = document.querySelector('.hero-title h2, span');
+typeWrite(titulo);
+</script>
