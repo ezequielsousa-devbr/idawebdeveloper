@@ -1,0 +1,16 @@
+/* Footer */
+
+.footer {
+	font-family: 'Roboto', sans-serif;
+	font-size: initial;
+	font-weight: 400;
+	text-align: center;
+	padding: 10px 20px;
+	color: white;
+	background-color: black;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #fff;
+}

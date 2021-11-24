@@ -1,0 +1,97 @@
+I"m<div class="container-sm-fluid vh-100">
+<header id="header" class="d-flex flex-wrap flex-row justify-content-between align-middle">
+	<div class="logo-header">
+	<a href="http://localhost:4000" target="_self">
+	<h1>Ida Webdeveloper</h1></a>
+</div>
+	<nav class="navbars">
+    <ul class="d-flex flex-wrap flex-row justify-content-between align-middle">
+        <li><a href="http://localhost:4000/index.html" target="_self">Home</a></li>
+        <li><a href="http://localhost:4000/pages/about.html" target="_self">Sobre</a></li>
+        <li><a href="http://localhost:4000/pages/service.html" target="_self">Serviços</a></li>
+        <li><a href="http://localhost:4000/pages/portfolio.html" target="_self">Portifólio</a></li>
+        <li><a href="http://localhost:4000/pages/contact.html" target="_self">Contato</a></li>
+        <li><a href="http://localhost:4000/blog.html" target="_self">blog</a></li>
+    </ul>
+</nav>
+</header>
+<div class="container-sm-fluid">
+<div class="title">
+	<h2>about</h2>
+</div>
+<div class="row about-person">
+	<figure>
+		<img class="img-fluid" src="http://localhost:4000/assets/img/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="About Perfil" />
+	</figure>
+</div>
+<div class="ab-contain">
+	<h3>Conheça um Pouco Sobre Nós</h3>
+	<p><strong>Seja Bem Vindos!</strong> Eu sou Ida e sou desenvolvedora de websites focada em Front-End. Sou formada na <strong>Universidade de São Paulo</strong> em Design Gráfico à mais de 2 anos e com uma experiência no mercado de trabalho de 3 anos. Comecei mais sedo no mundo da Tecnologia e decidi trabalhar com o Desenvolvimento de Sites Institucionais e Landpages. Tenho 2 filhos que completam 14 anos e já estão seguindo meus passos. Espero que possamos contribuir com seu projeto quando necessário.</p>
+	<p>Abaixo, temos em demonstração gráfica um pouco da nossa experiência e como podemos ajudá-lo em breve.</p>
+</div>
+<div class="about-skills">
+	<h4>Freelancer, Web Developer &amp; Photographer</h4>
+	<div class="skills-wrappers">
+		<div class="col-sm-6">
+			<div class="skills-items">
+				<h6>Photoshop</h6>
+				<div class="skills-progress">
+					<div class="skills-progress-bar photoshop">
+						<span>90%</span>
+					</div>
+				</div>
+			</div>
+			<div class="skills-items">
+				<h6>Illustrator</h6>
+				<div class="skills-progress">
+					<div class="skills-progress-bar illustrator">
+						<span>80%</span>
+					</div>
+				</div>
+			</div>
+			<div class="skills-items">
+				<h6>Figma</h6>
+				<div class="skills-progress">
+					<div class="skills-progress-bar figma">
+						<span>75%</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Column 2 -->
+		<div class="col-sm-6">
+			<div class="skills-items">
+				<h6>Html e Css</h6>
+				<div class="skills-progress">
+					<div class="skills-progress-bar html">
+						<span>90%</span>
+					</div>
+				</div>
+			</div>
+			<div class="skills-items">
+				<h6>Javascript</h6>
+				<div class="skills-progress">
+					<div class="skills-progress-bar javascript">
+						<span>80%</span>
+					</div>
+				</div>
+			</div>
+			<div class="skills-items">
+				<h6>React</h6>
+				<div class="skills-progress">
+					<div class="skills-progress-bar react">
+						<span>75%</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="footer">
+		<small>&copy; Desenvolvido Por. <a href="https://github.com/ezequielsousa-devbr" target="_blank">ezequielsousa-devbr</a></small>
+	</div>
+</footer>
+</div>
+</div>
+:ET
