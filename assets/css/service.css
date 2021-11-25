@@ -1,0 +1,45 @@
+.col-3 {
+	margin: 3px 5px;
+	padding: 0;
+	background: rgb(220, 53, 69);
+	max-width: 280px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.line-border figure img {
+	border: 1px solid grey;
+	border-radius: 50%;
+	padding: 20px; margin: 20px;
+	background-color: blanchedalmond;
+}
+.column-container {
+	padding: 10px;
+	text-align: center;
+}
+.column-contain {
+	margin: 10px 15px;
+}
+.column-contain .h5 {
+	font-family: 'Rubik', sans-serif !important;
+	font-size: 20px; font-weight: 500;
+	color: #E0E0EA;
+	text-transform: capitalize !important;
+}
+.column-contain p {
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 14px; font-weight: 400;
+	text-align: center !important;
+	color: #E0E0EA;
+	text-align: initial;
+	word-wrap: break-word;
+}
+.ondular::before {
+	position: absolute;
+	top: 550px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgb(220, 53, 69);
+	content: ".";
+	z-index: -999;
+}
