@@ -1,0 +1,24 @@
+# Photoshop
+- title: Photoshop
+  percentual: 80%
+  class: photoshop
+# illustrator
+- title: Illustrator
+  percentual: 65%
+  class: illustrator
+# figma
+- title: Figma
+  percentual: 50%
+  class: figma
+# html
+- title: html
+  percentual: 30%
+  class: html
+# Javascript
+- title: Javascript
+  percentual: 80%
+  class: javascript
+# React
+- title: React
+  percentual: 75%
+  class: react

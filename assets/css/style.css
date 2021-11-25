@@ -1,10 +1,12 @@
+@import 'geral.css';
 @import 'nav.css';
 @import 'fonts.css';
 @import 'particles.css';
 @import 'about.css';
+@import 'skills.css';
 @import 'service.css';
 @import 'portfolio.css';
-@import 'blog.css';
 @import 'footer.css';
-@import 'normalize.css';
 @import 'mobile.css';
+@import 'blog.css';
+@import 'columns_left_right.css';

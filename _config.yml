@@ -5,8 +5,8 @@ markdown: kramdown
 title: Ida Webdeveloper
 url: "localhost" # Aqui voce pode inserir seu endereço de domínio principal. Caso seu site esteja em subpasta, informe o endereço da pasta na baseurl como no exemplo abaixo.
       # url: "www.siteexemplo.com" ou baseurl: "/siteexemplo/".
-# baseurl: ""
-permalink: "/pages/:title"
+baseurl: ""
+permalink: "./pages/:title"
 
 # INFORMATIONS
 author: Ezequiel Sousa
@@ -34,10 +34,10 @@ smartlook_analytics:
 
 # HEADER NAVBARS:
 navbar_main: Home
-navbar_about: Sobre
-navbar_serv: Serviços
-navbar_port: Portifólio
-navbar_contact: Contato
+navbar_about: About
+navbar_serv: Services
+navbar_port: Portfolio
+navbar_contact: Contact
 navbar_blog: blog
 
 # EXCLUIR
@@ -46,4 +46,4 @@ exclude:
   - Gemfile.lock
   - README.md
   - .jekyll-cache/
-  - bower_components/
+  - docs/

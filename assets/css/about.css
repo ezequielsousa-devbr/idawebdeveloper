@@ -1,52 +1,7 @@
-/* About */
-
 .title {
 	display: block;
 	margin: 50px auto auto auto;
 }
-
-.title h2::before {
-	position: absolute;
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-	content: "web";
-	top: 20px;
-	left: -325px;
-	right: auto;
-	padding: 30px;
-	background-color: #dc3545;
-	width: 300px;
-	height: 500px;
-	z-index: -999;
-	border-top-right-radius: 50rem;
-	border-bottom-right-radius: 50rem;
-	border-radius: 50rem;
-	transform: rotate(270deg);
-	font-size: 30px;
-	color: #ffffff;
-}
-
-.title h2::after {
-	position: absolute;
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-	content: "developer";
-	top: 20px;
-	left: auto;
-	right: -325px;
-	padding: 30px;
-	background-color: #dc3545;
-	width: 300px;
-	height: 500px;
-	z-index: -999;
-	border-radius: 50rem;
-	transform: rotate(270deg);
-	font-size: 30px;
-	color: #ffffff;
-}
-
 .title h2 {
 	font-family: 'Rubik', sans-serif;
 	font-size: 75px;
@@ -55,32 +10,27 @@
 	color: #dc3545;
 	text-align: center;
 }
-
 .ab-contain {
 	display: block;
 	margin: auto;
 	padding: auto;
 }
-
 .about-person {
 	display: block;
 	margin: 30px auto;
 	text-align: center;
 }
-
 .about-person figure img {
 	display: inline-block;
 	border: 5px dashed grey;
 	border-radius: 50%;
 	padding: 30px;
 }
-
 .about-person img {
 	object-fit: cover;
 	width: 300px;
 	height: 300px;
 }
-
 .ab-contain h3 {
 	font-family: 'Rubik', sans-serif;
 	font-size: 22px;
@@ -90,7 +40,6 @@
 	margin: 10px auto;
 	text-align: center;
 }
-
 .ab-contain p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
@@ -99,92 +48,17 @@
 	text-align: center;
 	padding: 50px 150px;
 }
-
 .about-skills {
 	display: block;
 	margin: auto;
 	padding: auto;
 }
-
-.about-skills h4 {
+.about-skills .h4 {
 	font-family: 'Rubik', sans-serif;
 	font-size: 20px;
 	font-weight: 500;
 	text-transform: capitalize;
-	color: grey;
+	color: #ffffff;
 	margin: auto;
 	text-align: center;
-}
-
-.skills-wrappers {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	margin: 50px 10%;
-}
-
-.skills-items {
-	margin: 30px 20px;
-}
-
-.skills-items h6 {
-	font-family: 'Rubik', sans-serif;
-	font-size: 11px;
-	font-weight: 500;
-	text-transform: uppercase;
-	color: #ffffff;
-	margin: 15px auto;
-	line-height: 1.3px;
-}
-
-.skills-items .skills-progress {
-	background-color: #ffffff;
-	border-radius: 20px;
-}
-
-.skills-items .skills-progress-bar {
-	/*background-color: #dc3545;*/
-	height: 10px;
-	position: relative;
-}
-
-.skills-items .skills-progress span {
-	position: absolute;
-	top: -24px;
-	right: 0;
-	font-size: 13px;
-	font-weight: 500;
-	color: #fff;
-}
-
-/* Progress Bar */
-
-.photoshop {
-	width: 90%;
-	background-color: green;
-}
-
-.illustrator {
-	width: 80%;
-	background-color: orangered;
-}
-
-.figma {
-	width: 75%;
-	background-color: chocolate;
-}
-
-.html {
-	width: 90%;
-	background-color: orange;
-}
-
-.javascript {
-	width: 80%;
-	background-color: yellowgreen;
-}
-
-.react {
-	width: 75%;
-	background-color: darkblue;
 }

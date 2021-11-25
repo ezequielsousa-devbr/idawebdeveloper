@@ -5,13 +5,20 @@
 	<title>{{page.title}}</title>
 </head>
 <body style="background: #000;">
-	<section class="container-sm-fluid">
+	<section class="container-lg-fluid">
 		{% include header.html %}
+		<div class="row">
+			<div class="title">
+				<h2 class="h2">{{page.title}}</h2>
+			</div>
+			<div class="ab-contain">
+				<h3 class="h3">Conheça alguns de nossos conteúdos</h3>
+			</div>
 			{% for post in site.posts %}
 				{% include cards_blog.html %}
 			{% endfor %}
+		</div>
 	</section>
-	{% include footer.html %}
 	{% include scripts/script_b.html %}
 </body>
 </html>
