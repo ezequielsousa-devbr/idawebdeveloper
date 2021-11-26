@@ -14,11 +14,12 @@
 			<div class="ab-contain">
 				<h3 class="h3">Discover our content</h3>
 			</div>
-			{% for post in site.posts %}
+			{% for posts in site.posts %}
 				{% include cards_blog.html %}
 			{% endfor %}
 		</div>
 	</section>
+	{% include footer.html %}
 	{% include scripts/script_b.html %}
 </body>
 </html>
