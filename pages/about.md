@@ -1,7 +1,6 @@
 ---
 layout: about
-page: about
-title: about
+title: About
 ---
 
 {% include about.html %}

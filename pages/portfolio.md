@@ -1,6 +1,5 @@
 ---
 layout: portfolio
-page: portfolio
 title: Portfolio
 ---
 

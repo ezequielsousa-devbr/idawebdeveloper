@@ -1,7 +1,7 @@
-I"©<div class="d-lg-inline">
+I"»<div class="d-lg-inline">
 	<div class="hero-title">
 		<p><sup>Welcome</sup></p>
-		<h2 class="h2">I am <span>Ida Webdeveloper</span></h2>
+		<h2 class="h2">I am <span class="sub_title">Ida Webdeveloper</span></h2>
 		<!-- ShareThis BEGIN -->
 			<div class="sharethis-inline-share-buttons"></div>
 		<!-- ShareThis END -->

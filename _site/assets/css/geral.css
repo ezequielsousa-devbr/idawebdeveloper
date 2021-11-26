@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5,h6 {
 p,a {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px; font-weight: 700;
-    color: #ffffff;
+    color: #ffffff; text-decoration: none;
 }
 sub,sup,b,strong,i,ins,em {
     font-family: 'Open Sans', sans-serif;

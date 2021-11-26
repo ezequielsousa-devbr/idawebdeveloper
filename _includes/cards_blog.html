@@ -1,5 +1,5 @@
 <div class="row justify-content-lg-center my-4">
-    <div class="col-lg-8 bg-light bg-gradient py-2 px-2 rounded-3">
+    <div class="col-lg-8 py-2 px-2 rounded-3">
         <div class="cards">
             <figure class="card_figure">
                 <img class="img-fluid img-thumbnail" src="{{posts.post-image}}" alt="{{posts.description}}" />
@@ -8,11 +8,14 @@
                 </div>
             </figure>
             <div class="row">
-                <h3 class="h3 text-center fs-1 card_title">{{posts.title}}</h3>
-                <div class="d-lg-block">
-                    <p class="py-2 px-1 card_description">{{posts.description | truncate: 350 strip_html: 100}}</p>
+                <h3 class="h3 card_title">
+                    <a href="{{site.url}}{{site.baseurl}}{{posts.url}}" target="_self">{{posts.title | truncate: 50}}</a>
+                </h3>
+                <div class="card_description">
+                    <p>{{posts.description | truncate: 350 strip_html: 100}}</p>
                 </div>
             </div>
         </div>
     </div>
+    <hr class="bg-light">
 </div>
