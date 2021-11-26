@@ -1,0 +1,68 @@
+I"`<div class="container-lg-fluid column_left column_right">
+	<div class="title">
+		<h2 class="h2">Portfolio</h2>
+	</div>
+	<div class="row">
+		<div class="ab-contain">
+			<h3>Um Pouco do Nosso Trabalho</h3>
+			<p>Non sed nisi minim reprehenderit sunt consequat dolore ullamco est exercitation veniam quis id magna tempor magna exercitation tempor adipisicing mollit consequat culpa officia dolore nisi voluptate sed commodo consequat mollit adipisicing sint pariatur est quis amet do.</p>
+		</div>
+	</div>
+	<div class="row align-items-center justify-content-center py-4 mx-2">
+
+<div class="col-6">
+	<div class="portifolio">
+		<div class="portifolio-text">
+			<h4 class="h4">Site Institucional</h4>
+			<p>Est amet officia dolore eiusmod et adipisicing commodo dolore dolore sunt ut commodo ad nulla nostrud qui consequat eiusmod tempor et sunt nulla dolor cupidatat nisi.</p>
+		</div>
+		<figure>
+			<img class="img-fluid img-thumbnail" src="https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" alt="Portfolio" />
+		</figure>
+	</div>
+</div>
+
+<div class="col-6">
+	<div class="portifolio">
+		<div class="portifolio-text">
+			<h4 class="h4">Site Institucional</h4>
+			<p>Est amet officia dolore eiusmod et adipisicing commodo dolore dolore sunt ut commodo ad nulla nostrud qui consequat eiusmod tempor et sunt nulla dolor cupidatat nisi.</p>
+		</div>
+		<figure>
+			<img class="img-fluid img-thumbnail" src="https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" alt="Portfolio" />
+		</figure>
+	</div>
+</div>
+
+<div class="col-6">
+	<div class="portifolio">
+		<div class="portifolio-text">
+			<h4 class="h4">Site Institucional</h4>
+			<p>Est amet officia dolore eiusmod et adipisicing commodo dolore dolore sunt ut commodo ad nulla nostrud qui consequat eiusmod tempor et sunt nulla dolor cupidatat nisi.</p>
+		</div>
+		<figure>
+			<img class="img-fluid img-thumbnail" src="https://images.pexels.com/photos/270373/pexels-photo-270373.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" alt="Portfolio" />
+		</figure>
+	</div>
+</div>
+
+<div class="col-6">
+	<div class="portifolio">
+		<div class="portifolio-text">
+			<h4 class="h4">Site Institucional</h4>
+			<p>Est amet officia dolore eiusmod et adipisicing commodo dolore dolore sunt ut commodo ad nulla nostrud qui consequat eiusmod tempor et sunt nulla dolor cupidatat nisi.</p>
+		</div>
+		<figure>
+			<img class="img-fluid img-thumbnail" src="https://images.pexels.com/photos/1933900/pexels-photo-1933900.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" alt="Portfolio" />
+		</figure>
+	</div>
+</div>
+
+</div>
+	<footer>
+	<div class="footer">
+		<a href="https://github.com/ezequielsousa-devbr" target="_blank"><small>&copy; Desenvolvido Por. ezequielsousa-devbr</small></a>
+	</div>
+</footer>
+</div>
+:ET
