@@ -1,7 +1,8 @@
 .column_left::before, .column_right::after {
     font-family: 'Rubik', sans-serif !important;
     font-size: 30px; color: #ffffff;
-    font-weight: 800; padding: 30px;
+	font-weight: 800; padding: 30px;
+	text-transform: uppercase;
 }
 .column_left::before {
 	position: absolute;

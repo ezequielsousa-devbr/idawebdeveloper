@@ -39,3 +39,7 @@ sub,sup,b,strong,i,ins,em {
 figure,img,picture {
     margin: 0px; padding: 0px;
 }
+ul li, ol li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px; list-style: none;
+}

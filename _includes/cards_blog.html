@@ -4,7 +4,9 @@
             <figure class="card_figure">
                 <img class="img-fluid img-thumbnail" src="{{posts.post-image}}" alt="{{posts.description}}" />
                 <div class="categories_row">
-                    <span class="card_categories_span py-1 px-1">{{posts.categories}}</span>
+                    <ul class="card_categories_span">
+                        <li class="tags">{{posts.categories}}</li>
+                    </ul>
                 </div>
             </figure>
             <div class="row">
@@ -17,5 +19,5 @@
             </div>
         </div>
     </div>
-    <hr class="bg-light">
+    <hr class="bg-light w-75 my-4">
 </div>
