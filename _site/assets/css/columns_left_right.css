@@ -5,7 +5,7 @@
 }
 .column_left::before {
 	position: absolute;
-	display: flex;
+	display: inline-flex;
 	align-items: flex-end;
 	justify-content: center;
 	content: "web";
@@ -21,7 +21,7 @@
 }
 .column_right::after {
 	position: absolute;
-	display: flex;
+	display: inline-flex;
 	align-items: flex-start;
 	justify-content: center;
 	content: "developer";

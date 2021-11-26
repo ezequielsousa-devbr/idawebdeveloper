@@ -36,3 +36,6 @@ sub,sup,b,strong,i,ins,em {
     font-size: 16px; font-weight: 700;
     color: #ffffff;
 }
+figure,img,picture {
+    margin: 0px; padding: 0px;
+}

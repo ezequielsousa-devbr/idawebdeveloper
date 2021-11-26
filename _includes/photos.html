@@ -1,13 +1,13 @@
 <div class="row align-items-center justify-content-center py-4 mx-2">
-{% for portifolio in site.data.portifolio %}
+{% for portfolio in site.data.portfolio %}
 <div class="col-6">
 	<div class="portifolio">
 		<div class="portifolio-text">
-			<h4 class="h4">Site Institucional</h4>
-			<p>Est amet officia dolore eiusmod et adipisicing commodo dolore dolore sunt ut commodo ad nulla nostrud qui consequat eiusmod tempor et sunt nulla dolor cupidatat nisi.</p>
+			<h4 class="h4">{{portfolio.title | truncate: 200}}</h4>
+			<p>{{portfolio.description | truncate: 530}}</p>
 		</div>
 		<figure>
-			<img class="img-fluid img-thumbnail" src="{{portifolio.src}}" alt="{{portifolio.alt}}" />
+			<img class="img-fluid img-thumbnail" src="{{portfolio.src}}" alt="{{portfolio.alt}}" />
 		</figure>
 	</div>
 </div>
