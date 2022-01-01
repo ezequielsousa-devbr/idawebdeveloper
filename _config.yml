@@ -6,7 +6,8 @@ title: Ida Webdeveloper
 url: "localhost" # Aqui voce pode inserir seu endereço de domínio principal. Caso seu site esteja em subpasta, informe o endereço da pasta na baseurl como no exemplo abaixo.
       # url: "www.siteexemplo.com" ou baseurl: "/siteexemplo/".
 baseurl: ""
-permalink: "./pages/:title"
+permalink: "/pages/:title"
+disable_disk_cache: true
 
 # INFORMATIONS
 author: Ezequiel Sousa
@@ -18,6 +19,7 @@ image: michael-dam-mEZ3PoFGs_k-unsplash.jpg
 
 # REDES SOCIAIS
 username_github: ezequielsousa-devbr
+username_twitter:
 
 # PAGES
 about_perfil: michael-dam-mEZ3PoFGs_k-unsplash.jpg

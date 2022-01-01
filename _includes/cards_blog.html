@@ -1,17 +1,23 @@
-<div class="container">
-    <div class="col-lg-6">
+<div class="row justify-content-lg-center my-4">
+    <div class="col-lg-8 py-2 px-2 rounded-3">
         <div class="cards">
-            <figure>
-                <img class="img-fluid" src="{{site.posts.post-img}}" alt="{{site.posts.description}}" />
+            <figure class="card_figure">
+                <img class="img-fluid img-thumbnail" src="{{posts.post-image}}" alt="{{posts.description}}" />
                 <div class="categories_row">
-                    <span>{{posts.categories}}</span>
+                    <ul class="card_categories_span">
+                        <li class="tags">{{posts.categories}}</li>
+                    </ul>
                 </div>
             </figure>
             <div class="row">
-                <h3 class="h3">{{site.posts.title}}</h3>
-                <p>{{site.posts.description}}</p>
+                <h3 class="h3 card_title">
+                    <a href="{{site.url}}{{site.baseurl}}{{posts.url}}" target="_self">{{posts.title | truncate: 50}}</a>
+                </h3>
+                <div class="card_description">
+                    <p>{{posts.description | truncate: 350 strip_html: 100}}</p>
+                </div>
             </div>
         </div>
     </div>
-    {% include footer.html %}
+    <hr class="bg-light w-75 my-4">
 </div>

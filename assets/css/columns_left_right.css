@@ -1,11 +1,12 @@
 .column_left::before, .column_right::after {
     font-family: 'Rubik', sans-serif !important;
     font-size: 30px; color: #ffffff;
-    font-weight: 800; padding: 30px;
+	font-weight: 800; padding: 30px;
+	text-transform: uppercase;
 }
 .column_left::before {
 	position: absolute;
-	display: flex;
+	display: inline-flex;
 	align-items: flex-end;
 	justify-content: center;
 	content: "web";
@@ -21,7 +22,7 @@
 }
 .column_right::after {
 	position: absolute;
-	display: flex;
+	display: inline-flex;
 	align-items: flex-start;
 	justify-content: center;
 	content: "developer";
